@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6900;
+    height: 80px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+/* regole navigazione header */
+
+ul.list-mainnav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    /* flex-basis: 50%; */
+    gap: 25px;
+}
+
+ul.list-mainnav li {
+    list-style: none;
+}
