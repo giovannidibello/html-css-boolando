@@ -44,7 +44,7 @@ ul.list-mainnav li {
 }
 
 .profile i {
-    padding-left: 10px;    
+    padding-left: 10px;
 }
 
 /* regole main */
@@ -63,14 +63,14 @@ main {
 }
 
 .product {
-    /* width: 32%; */
+    width: 32%;
     margin-bottom: 20px;
     position: relative;
 }
 
 .product img {
-    width: 300px;
-    }
+    width: 100%;
+}
 
 .labels {
     display: flex;
