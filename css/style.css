@@ -70,7 +70,7 @@ main {
 
 .product img {
     width: 300px;
-}
+    }
 
 .labels {
     display: flex;
@@ -109,7 +109,7 @@ main {
 }
 
 .product:hover .second-img {
-    display: block;
+    display: inline-block;
 }
 
 .product:hover .first-img {
