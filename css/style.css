@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 70%;
     height: 40px;
 }
 
@@ -43,4 +43,94 @@ ul.list-mainnav {
 
 ul.list-mainnav li {
     list-style: none;
+}
+
+/* regole main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.product {
+    /* width: 32%; */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.product img {
+    width: 300px;
+}
+
+.labels {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+}
+
+.product-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.discount-price {
+    color: #ff0000;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.heart {
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+/* regole hover immagini */
+
+.second-img {
+    display: none;
+}
+
+.product:hover .second-img {
+    display: block;
+}
+
+.product:hover .first-img {
+    display: none;
+}
+
+/* regole label */
+
+.label {
+    padding: 5px;
+    color: white;
+}
+
+.discount {
+    background-color: #ff0000;
+    /* position: absolute;
+    position: relative;
+    bottom: 40px;
+    left: 0; */
+}
+
+.sostenib {
+    background-color: #008000;
+    /* position: absolute;
+    bottom: 40px;
+    left: 60px; */
 }
