@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* regole header */
 
 header {
@@ -11,6 +16,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #ff6900;
+    color: white;
     height: 80px;
 }
 
@@ -22,27 +28,23 @@ header {
     height: 40px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+/* regole navigazione header */
+
+ul.list-mainnav {
+    display: flex;
+    gap: 25px;
+}
+
+ul.list-mainnav li {
+    list-style: none;
 }
 
 .logo {
     width: 150px;
 }
 
-
-/* regole navigazione header */
-
-ul.list-mainnav {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    gap: 25px;
-}
-
-ul.list-mainnav li {
-    list-style: none;
+.profile i {
+    padding-left: 10px;    
 }
 
 /* regole main */
