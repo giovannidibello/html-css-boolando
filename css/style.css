@@ -24,6 +24,7 @@ header {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .logo {
@@ -37,7 +38,6 @@ ul.list-mainnav {
     display: flex;
     justify-content: space-around;
     color: white;
-    /* flex-basis: 50%; */
     gap: 25px;
 }
 
@@ -123,15 +123,44 @@ main {
 
 .discount {
     background-color: #ff0000;
-    /* position: absolute;
-    position: relative;
-    bottom: 40px;
-    left: 0; */
 }
 
 .sostenib {
     background-color: #008000;
-    /* position: absolute;
-    bottom: 40px;
-    left: 60px; */
+}
+
+/* regole footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    height: 100px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+}
+
+.foot-social {
+    text-align: center;
+}
+
+.foot-text a {
+    padding-right: 10px;
+}
+
+.social {
+    font-size: 20px;
+    text-align: center;
+}
+
+.social i {
+    padding-right: 10px;
 }
