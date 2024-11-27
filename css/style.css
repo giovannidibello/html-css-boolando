@@ -78,6 +78,7 @@ main {
 }
 
 .image {
+    display: flex;
     position: relative;
 }
 
@@ -88,8 +89,9 @@ main {
     bottom: 25%;
     left: 0;
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-shrink: 1; */
 }
+
 
 .product-text {
     font-size: 18px;
@@ -119,11 +121,11 @@ main {
     display: none;
 }
 
-.product:hover .second-img {
+.image:hover .second-img {
     display: inline-block;
 }
 
-.product:hover .first-img {
+.image:hover .first-img {
     display: none;
 }
 
